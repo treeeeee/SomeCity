@@ -1,0 +1,306 @@
+.banner{
+    min-width: 1200px;
+    position: relative;
+    height: 380px;
+    overflow: hidden;
+}
+.banner>ul{
+    width: 1423px;
+    overflow: hidden;
+    height: 380px;
+    margin:0 auto;
+}
+.banner>ul>li{
+    position: absolute;
+    top:0;
+    left: -150px;
+    opacity: 0;
+    transition: all .5s linear;
+}
+.banner>ul>li.show{
+    opacity: 1;
+}
+/*酒店搜索*/
+.gnjdss{
+    width: 470px;
+    height: 330px;
+    background: #ffffff;
+    position: absolute;
+    left: 100px;
+    top: 25px;
+    box-shadow: 0 0 15px #999;
+}
+.gnjdss>ul{
+    list-style: none;
+    height: 50px;
+    width: 470px;
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gnjdss>ul>li{
+    width: 155px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.gnjdss>ul>li.orange{
+    color: orange;
+    border-bottom:2px solid orange;
+}
+/*国内酒店下面的内容*/
+.ipt>p{
+    width: 428px;
+    height: 34px;
+    line-height: 32px;
+    margin:20px 0 0 20px;
+    /*background: red;*/
+    padding-left: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.p1>.bourn_ipt{
+    width: 370px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    outline: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    color: #333;
+}
+.p2>.check_in_ipt{
+    width: 162px;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    color: #333;
+    margin-left: 23px;
+}
+.p2>.check_out_ipt{
+    width: 162px;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    color: #333;
+    margin-left: 7px;
+}
+.p3>.antistop_ipt{
+    width: 370px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    outline: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    color: #333;
+}
+.p4>.search1{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    border:1px solid #ff7800;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    font-family:"微软雅黑";
+    outline:none;
+    margin-right: 20px;
+    background-color: #ff7800;
+}
+.p4>.Map_search{
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family:"微软雅黑";
+    cursor: pointer;
+    border-radius: 3px;
+    border:1px solid #ddd;
+    background-color: #fff;
+    outline: none;
+}
+.p4>.Map_search:hover{
+    color: #ff7800;
+    border-color: #ff7800;
+}
+.ipt.hide{
+    display: none;
+}
+
+/*热门酒店*/
+.hot_hotel{
+    width: 1200px;
+    margin:0 auto;
+    height: auto;
+}
+.hot_hotel>.hotel_title{
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+    margin: 38px 0 23px;
+}
+.hot_hotel>.tab{
+    width: 576px;
+    margin:0 auto;
+    height: 27px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab>li{
+    width: 70px;
+    height: 27px;
+    border:1px solid #ff7800;
+    text-align: center;
+    line-height: 27px;
+    margin-right: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.tab>li.active{
+    background: #ff7800;
+    color: #fff;
+}
+.hot_hotel>.pub{
+    width: 1200px;
+    height: 581px;
+    /*background: red;*/
+}
+.pub>ul{
+    width: 1200px;
+    height: 581px;
+    /*background: yellow;*/
+}
+.pub>ul>li{
+    width: 387px;
+    height: 250px;
+    float: left;
+    margin: 10px 8px 5px 5px;
+    position: relative;
+    overflow: hidden;
+}
+.pub>ul>li>img{
+    width: 387px;
+}
+.pub>ul>li>a{
+    width: 387px;
+    position: absolute;
+    height: 250px;
+    /*background: yellow;*/
+    background:rgba(255,255,255,0.3);
+    top: 200px;
+    left:0;
+    padding:8px 0 0 10px;
+    color: #fff;
+    transition: all .3s linear;
+}
+.pub>ul>li>a>h1{
+    display: inline-block;
+    width: 240px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    font-weight: normal;
+}
+.pub>ul>li>a>span{
+    display: inline-block;
+    margin-left: 50px;
+    color: red;
+    font-size: 20px;
+    font-family:"微软雅黑";
+}
+.pub>ul>li>a>p{
+    margin-top: 5px;
+    width: 220px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    margin-left:10px;
+}
+.pub>ul>li:hover a{
+    top: 180px;
+}
+.pub>ul.hide{
+    display: none;
+}
+/*度假主题*/
+.Holiday{
+    width:100%;
+    height: 730px;
+    background: #f5f5f5;
+    overflow: hidden;
+}
+.Holiday .djzt{
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin:37px 0 17px;
+}
+.nav{
+    width: 500px;
+    margin:0 auto;
+    overflow: hidden;
+    margin-bottom: 17px;
+    /*background: red;*/
+    height: 80px;
+}
+.nav>ul {
+    width: 500px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav>ul>li{
+    width: 60px;
+    height: 80px;
+    /*background: yellow;*/
+    text-align: center;
+}
+.nav>ul i{
+    display: block;
+    width: 60px;
+    height: 62px;
+    background: #000;
+    background:url("images/酒店/zticon.png")no-repeat 0 0;
+}
+.nav>ul>li:nth-child(2) i{
+    background-position: 0 -100px;
+}
+.nav>ul>li:nth-child(3) i{
+    background-position: 0 -200px;
+}
+.nav>ul>li:nth-child(4) i{
+    background-position: 0 -300px;
+}
+.nav>ul>li:nth-child(5) i{
+    background-position: 0 -400px;
+}
+.Holiday_pic{
+    width: 1200px;
+    height: 520px;
+    background: red;
+    margin:0 auto;
+}
+.Holiday_pic>.leftintro{
+    width: 387px;
+    height: 520px;
+    float: left;
+    overflow: hidden;
+    position:relative;
+    background: yellow;
+}

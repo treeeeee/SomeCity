@@ -1,0 +1,232 @@
+/*通用样式*/
+h1, h2, h3, h4, h5, h6, form, div, p, i, img, ul, li, ol, dl,dt,dd,table, tr, td,th, fieldset, label, legend,button,input,body{
+    margin:0;padding:0;
+    list-style: none;
+}
+#header{
+    width:100%;
+    height: 58px;
+    padding:18px 0;
+    /*background: red;*/
+}
+div.login{
+    width: 1190px;
+    height: 58px;
+    margin:0 auto;
+    /*background: #000;*/
+}
+.rt{
+    float: right;
+    margin-top: 9px;
+}
+#centent{
+    background: #F5F5F5;
+   
+}
+.centent{
+    width: 1000px;
+    height: 430px;
+    background:#F5F5F5;
+    margin:0 auto;
+    padding: 40px 0;
+}
+.centent>img{
+    width: 523px;
+    height: 370px;
+    padding: 30px 0;
+    float: left;
+}
+/*右边登录*/
+.right_content{
+    width: 350px;
+    height: 426px;
+    background: #ffffff;
+    float: right;
+    border-radius: 20px;
+
+}
+.right_content .top{
+    width: 350px;
+    height: 52px;
+    background-color: #fff;
+
+}
+.right_content .top li{
+    float: left;
+    width: 175px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    font-family:"微软雅黑";
+}
+.dl{
+    width: 270px;
+    height: 230px;
+    padding:0 40px;
+    /*background: yellow;*/
+    margin-top: 40px;
+}
+.dl .inpt1{
+    width: 268px;
+    height: 32px;
+    border: 1px solid #ddd;
+    /*background-color: aqua;*/
+    margin-bottom: 19px;
+    line-height: 32px;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+}
+.dl .inpt1 b{
+    position: absolute;
+    top:6px ;
+    left:6px ;
+    width: 20px;
+    height: 20px;
+    /*background: red;*/
+    padding-right: 30px;
+    border-right: 1px solid #dddddd;
+    box-sizing: border-box;
+    background:url("images/1IqtjF.png")no-repeat 0px -209px;
+}
+.dl .inpt1 .b2{
+    background-position: -131px -188px;
+}
+.inpt1 input{
+    width: 266px;
+    height: 30px;
+    border:none;
+    padding-left:45px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family:"微软雅黑";
+}
+.dl .check{
+    float: left;
+    width: 270px;
+    height: 26px;
+    /*background: aqua;*/
+    line-height: 20px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+div.check_ipt{
+    float: left;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    /*background: red;*/
+    position: relative;
+    border: 1px solid #ddd;
+    /*vertical-align: top;*/
+    margin-top:3px;
+}
+div.check_ipt input{
+    position: absolute;
+    z-index: 100;
+    width: 14px;
+    height: 15px;
+    margin:0;
+    padding:0;
+    opacity: 0;
+}
+.cb11{
+    display: none;
+    position: absolute;
+    width: 10px;
+    height: 13px;
+    background: url("images/reg.png") no-repeat 0 -530px;
+    top: 11%;
+    left: 21%;
+}
+.check>span{
+    float: left;
+    font-size: 14px;
+    font-family:"微软雅黑";
+    /*vertical-align: top;*/
+    margin-left: 10px;
+}
+.check a{
+    float: right;
+    font-size: 14px;
+    font-family:"微软雅黑";
+}
+#btn{
+    width: 270px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    margin-top:20px;
+    font-size: 16px;
+    font-family:"微软雅黑";
+    background: #ff7800;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+#btn:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #f63;
+    font-size: 17px;
+}
+.wqw{
+    width: 270px;
+    height: 44px;
+    /*background: red;*/
+    margin-top: 40px;
+    line-height: 44px;
+}
+.wqw li{
+    float: left;
+    width: 46px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 32px;
+    background: #FBFBFB;
+    margin-top: 6px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+
+}
+.wqw li b{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    width: 22px;
+    height: 22px;
+    background:url("images/1IqtjF.png")no-repeat 0 -97px;
+
+}
+.wqw li:nth-child(2) b{
+    background-position: 0 -128px;
+}
+.wqw li:nth-child(3) b{
+    background-position: 0 -159px;
+}
+.wqw li a{
+    font-family:"微软雅黑";
+    font-size: 16px;
+    color: #6F666F;
+    text-decoration: none;
+}
+#footer{
+    padding: 20px 0;
+    width:100%;
+    margin: 0 auto;
+}
+#footer>p{
+    text-align: center;
+    font-size: 15px;
+    font-family:"微软雅黑";
+}
+#footer>p>a{
+    text-decoration: none;
+}

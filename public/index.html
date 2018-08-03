@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<!-- 1、指定基础语言 -->
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <!--2、指定视口信息-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <!--3、指定跨IE浏览器兼容性-->
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+
+    <title></title>
+    <!--4、引入 Bootstrap.css-->
+    <link rel="stylesheet" href="style.css"/>
+    <!--5、引入两个兼容性文件(老IE)-->
+    <!--[if lt IE 9]>
+  <![endif]-->
+</head>
+<body>
+    <div id="header">
+        <div id="headered">
+            <div class="topapper">
+                <div class="top">
+                    <span id="sp1">您好，请</span>
+                    <a href="register.html" id="lisa1">登录</a>
+                    <a href="zc.html" id="mfzc" target="_blank">免费注册</a>
+                </div>
+                <ul class="topul">
+                    <li><a href="" class="a1">我的订单</a></li>
+                    <li class="li2">
+                        <a href="" id="tongcheng">我的同城</a>
+                        <ul class="drop-down1">
+                            <li><span>您好，<a href="#">请登录</a></span></li>
+                            <li><a href="" class="aa">我的订单</a></li>
+                            <li><a href="" class="aa">我的信息</a></li>
+                            <li><a href="" class="aa">我的收藏</a></li>
+                            <li><a href="" class="aa">会员中心</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="" id="kehufuwu">客户服务</a></li>
+                    <li><a href="" id="hezuozhongxin">合作中心</a></li>
+                    <li id="phone"></li>
+                    <li id="weixin"></li>
+                </ul>
+                <!-- nav-->
+                <div class="search">
+                    <img src="images/logo.png" alt="" class="lf"/>
+                    <div id="ipt" class="lf">
+                        <div class="btnipt">
+                            <form action="">
+                                <input type="text" placeholder="水世界"/>
+                                <button type="button">搜索</button>
+                            </form>
+                            <ul class="lf search_box">
+                                <li><a href="">深圳</a></li>
+                                <li><a href="">香港</a></li>
+                                <li><a href="">澳门</a></li>
+                                <li><a href="">台湾</a></li>
+                                <li><a href="">巴厘岛</a></li>
+                                <li><a href="">珠海长隆海洋王国</a></li>
+                                <li><a href="">巴厘岛</a></li>
+                                <li><a href="">巴厘岛</a></li>
+                                <li><a href="">巴厘岛</a></li>
+                                <li><a href="">巴厘岛</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <img src="images/logoimg.png" alt="" class="rt"/>
+                </div>
+            </div>
+        </div>
+        <nav id="nav">
+            <div class="sub-nav">
+                <ul class="lf sub-nav-ul">
+                    <li><a href="#" class="active">首页</a></li>
+                    <li><a href="hotel%20reservation.html">酒店</a></li>
+                    <li><a href="#">机票</a></li>
+                    <li><a href="#">火车票</a></li>
+                    <li><a href="#">汽车票</a></li>
+                    <li><a href="#">景点</a></li>
+                    <li><a href="#">周边游</a></li>
+                    <li><a href="#">国内游</a></li>
+                    <li><a href="#">出境游</a></li>
+                    <li><a href="#">游轮</a></li>
+                    <li><a href="#">签证</a></li>
+                    <li><a href="#">定制旅游</a></li>
+                    <li><a href="#">金融</a></li>
+                    <li><a href="#">攻略</a></li>
+                    <li><a href="#">百旅会</a></li>
+                </ul>
+            </div>
+            <div class="sub-nav-bg">
+                <div class="sub-nab-bg-ul">
+                    <ul class="lf">
+                        <li>
+                            <b class="b1"></b>
+                            <span></span>
+                        </li>
+                        <li>
+
+                            <a href="">签证</a>
+                        </li>
+                        <li>
+                            <b></b>
+                            <a href="">全球WiFi</a>
+                        </li>
+                        <li>
+                            <b></b>
+                            <a href="">当地玩乐</a>
+                        </li>
+                        <li>
+                            <b></b>
+                            <a href="">海外门票</a>
+                        </li>
+                        <li>
+                            <b></b>
+                            <a href="">国际机票</a>
+                        </li>
+                        <li>
+                            <b></b>
+                            <a href="">国际酒店</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="banner">
+        <table></table>
+        <ul class="lf" id="lb">
+            <li class="appear"><img src="images/banner2.jpg" alt=""></li>
+            <li><img src="images/banner3.jpg" alt=""></li>
+            <li><img src="images/banner4.jpg" alt=""></li>
+            <li><img src="images/banner5.jpg" alt=""></li>
+           <!--轮播图-->
+        </ul>
+        <ul id="lbxd">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+
+        <!-- 搜索框-->
+        <div class="search-soso-box">
+            <ul id="soso-top">
+                <li><a href="#">机票</a></li>
+                <li><a href="#">火车票</a></li>
+                <li><a href="#">酒店</a></li>
+                <li><a href="#">景点</a></li>
+                <li><a href="#">周边游</a></li>
+                <li><a href="#">国内游</a></li>
+                <li><a href="#">出境游</a></li>
+                <li><a href="#">游轮</a></li>
+            </ul>
+            <div id="soso-centent">
+                <div class="soso-centent-table">
+                    <h4>
+                        <a href="#" class="air-ticket">国内机票</a>
+                        <a href="#">国际机票</a>
+                    </h4>
+                    <ul class="soso-ul">
+                        <li class="list-tit">行程类型</li>
+                        <li>单程</li>
+                        <li>往返</li>
+                        <li>联程</li>
+                    </ul>
+                    <div class="soso-city">
+                        <dl class="soso-dl" id="soso-dl1">
+                            <dt class=" soso-dt" >出发城市</dt>
+                            <dd >
+                                <input type="text" class="soso-txt" placeholder="城市名"/>
+                            </dd>
+                        </dl>
+                        <dl class="soso-dl" id="soso-dl2">
+                            <dt class=" soso-dt" >到达城市</dt>
+                            <dd >
+                                <input type="text" class="soso-txt" placeholder="城市名"/>
+                            </dd>
+                        </dl>
+                        <dl class="soso-dl" id="soso-dl3">
+                            <dt class=" soso-dt" >到达城市</dt>
+                            <dd >
+                                <input type="text" class="soso-txt" placeholder="城市名"/>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 右边的banner广告-->
+        <div id="search_sousou_banner">
+               <div class="into">
+                   <h1>欢乐海岛游</h1>
+                <span>探秘大海的秘密</span>
+               </div>
+
+        </div>
+    </div>
+    <section id="section">
+        <div id="content">
+            <div class="adProject">
+                <div id="tab_title">
+                    <h1></h1>
+                    <ul class="tab_title_nav">
+                        <li class="active">热门推荐</li>
+                        <li>周边自由行</li>
+                        <li>周边跟团</li>
+                        <li>国内游</li>
+                        <li>出境游</li>
+                        <li>游轮</li>
+                    </ul>
+                </div>
+                <div class="dad_left">
+                    <div class="item_list">
+                        <a href=""><em>周边游</em>一元玩景点</a>
+                        <a href=""><em>国内游</em>双人立减1000元</a>
+                        <a href=""><em>签证</em>暑期爆款1元秒</a>
+                        <a href=""><em>邮轮</em>缤纷主题夏令营</a>
+                    </div>
+                </div>
+                <div class="dad_right">
+                    <ul class="">
+                        <li>
+                            <a href="">
+                                    <div><img src="images/UiyHfC_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                        </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/UiyHfC_242x150_00.jpg" alt=""/></div>
+                            <p class="dad_box">
+                                【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                            </p>
+                        </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/UiyHfC_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/UiyHfC_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/UiyHfC_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li><a href=""><div><img src="images/UiyHfC_242x150_00.jpg" alt=""/></div>
+
+                            <p class="dad_box">
+                                【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                            </p>
+                        </a>
+                        </li>
+                    </ul>
+                    <ul class="hide">
+                        <li>
+                            <a href="">
+                                <div><img src="images/3F1Rab_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/3F1Rab_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/3F1Rab_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/3F1Rab_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/3F1Rab_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li><a href=""><div><img src="images/3F1Rab_242x150_00.jpg" alt=""/></div>
+
+                            <p class="dad_box">
+                                【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                            </p>
+                        </a>
+                        </li>
+                    </ul>
+                    <ul class="hide">
+                        <li>
+                            <a href="">
+                                <div><img src="images/A4ayFw_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/A4ayFw_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/A4ayFw_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/A4ayFw_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/A4ayFw_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li><a href=""><div><img src="images/A4ayFw_242x150_00.jpg" alt=""/></div>
+
+                            <p class="dad_box">
+                                【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                            </p>
+                        </a>
+                        </li>
+                    </ul>
+                    <ul class="hide">
+                        <li>
+                            <a href="">
+                                <div><img src="images/Ej8AA8_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/Ej8AA8_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/Ej8AA8_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/Ej8AA8_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/Ej8AA8_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li><a href=""><div><img src="images/Ej8AA8_242x150_00.jpg" alt=""/></div>
+
+                            <p class="dad_box">
+                                【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                            </p>
+                        </a>
+                        </li>
+                    </ul>
+
+                    <ul class="hide">
+                        <li>
+                            <a href="">
+                                <div><img src="images/FiP9RZ_242x150_00.png" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/FiP9RZ_242x150_00.png" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/FiP9RZ_242x150_00.png" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/FiP9RZ_242x150_00.png" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/FiP9RZ_242x150_00.png" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li><a href=""><div><img src="images/FiP9RZ_242x150_00.png" alt=""/></div>
+
+                            <p class="dad_box">
+                                【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                            </p>
+                        </a>
+                        </li>
+                    </ul>
+
+                    <ul class="hide">
+                        <li>
+                            <a href="">
+                                <div><img src="images/4Yosov_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/4Yosov_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/4Yosov_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/4Yosov_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><div><img src="images/4Yosov_242x150_00.jpg" alt=""/></div>
+                                <p class="dad_box">
+                                    【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                                </p>
+                            </a>
+                        </li>
+                        <li><a href=""><div><img src="images/4Yosov_242x150_00.jpg" alt=""/></div>
+
+                            <p class="dad_box">
+                                【休闲出游】珠海长隆海洋王国-圆明新园-野狸岛-石景山跟团2日游探秘海洋王国，观赏烟花焕彩表演"
+                            </p>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--住酒店部分-->
+            <div id="hoteBox" class="hoteBox">
+                <div class="tab_title">
+                    <h2><a href="">住酒店</a></h2>
+                    <ul>
+                        <li><a href="">深圳</a></li>
+                        <li><a href="">香港</a></li>
+                        <li><a href="">珠海</a></li>
+                        <li><a href="">东莞</a></li>
+                        <li><a href="">中山</a></li>
+                        <li><a href="">澳门</a></li>
+                        <li><a href="">惠州</a></li>
+                        <li><a href="">江门</a></li>
+                        <li><a href="">国际酒店</a></li>
+                    </ul>
+                </div>
+                <!--住酒店下面的图片-->
+                <div id="grogshop">
+                    <div class="grogshop_left">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div>
+                            </li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                        </ul>
+                    </div>
+                    <div class="grogshop_right">
+
+                    </div>
+                </div>
+            </div>
+            <div id="hoteBox" class="hoteBox">
+                <div class="tab_title">
+                    <h2><a href="">住酒店</a></h2>
+                    <ul>
+                        <li><a href="">深圳</a></li>
+                        <li><a href="">香港</a></li>
+                        <li><a href="">珠海</a></li>
+                        <li><a href="">东莞</a></li>
+                        <li><a href="">中山</a></li>
+                        <li><a href="">澳门</a></li>
+                        <li><a href="">惠州</a></li>
+                        <li><a href="">江门</a></li>
+                        <li><a href="">国际酒店</a></li>
+                    </ul>
+                </div>
+                <!--住酒店下面的图片-->
+                <div id="grogshop">
+                    <div class="grogshop_left">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div>
+                            </li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                        </ul>
+                    </div>
+                    <div class="grogshop_right">
+                        <div class="area_price">
+                            <p>热门商圈</p>
+                            <div class="area_clearfix">
+                                <ul>
+                                    <li>
+                                        <a href="#">麦迪,河南岸</a>
+                                        <em></em>
+                                    </li>
+                                    <li>
+                                        <a href="#">大亚湾,霞</a>
+                                        <em></em>
+                                    </li>
+                                    <li>
+                                        <a href="#">淡水,火车</a>
+                                        <em></em>
+                                    </li>
+                                    <li>
+                                        <a href="#">江北,火车</a>
+                                        <em></em>
+                                    </li>
+                                    <li>
+                                        <a href="#">巽寮湾度假</a>
+                                        <em></em>
+                                    </li>
+                                    <li>
+                                        <a href="#">西湖周边,汽车</a>
+                                        <em class="e6"></em>
+                                    </li>
+                                    <li>
+                                        <a href="#">陈江,仲恺高新区</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">惠城区</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="pic">
+                            <div class="pictrue">
+                            <img src="images/飞机/rBANC1kw4GGACbHnAABAAFSYQYw498.png" alt="">
+                        </div>
+                            <div class="pictrue_text">
+                                <p>更多国内酒店
+                                    <em>超值特惠</em>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="pic">
+                            <div class="pictrue">
+                                <img src="images/飞机/rBANC1kw4GGACbHnAABAAFSYQYw498.png" alt="">
+                            </div>
+                            <div class="pictrue_text">
+                                <p>更多国内酒店
+                                    <em>超值特惠</em>
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div id="hoteBox" class="hoteBox hoteBox1">
+                <div class="tab_title">
+                    <h2><a href="">住酒店</a></h2>
+                    <ul>
+                        <li><a href="">深圳</a></li>
+                        <li><a href="">香港</a></li>
+                        <li><a href="">珠海</a></li>
+                        <li><a href="">东莞</a></li>
+                        <li><a href="">中山</a></li>
+                        <li><a href="">澳门</a></li>
+                        <li><a href="">惠州</a></li>
+                        <li><a href="">江门</a></li>
+                        <li><a href="">国际酒店</a></li>
+                    </ul>
+                </div>
+                <!--住酒店下面的图片-->
+                <div id="grogshop">
+                    <div class="grogshop_left">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div>
+                            </li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b> <em>起</em>
+                                </div></li>
+                            <li><a href="#"><img src="images/2tEr4B_242x150_00.jpg" alt=""></a>
+                                <div class="pic_box">\
+                                    <p>深圳柏林酒店</p>
+                                    <span>国内酒店</span>
+                                    <b>¥766</b><em>起</em>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grogshop_right">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div id="footer">
+        <!--页脚-->
+        <div class="footer_nav">
+            <ul>
+                <li>
+                    <b><img src="images/footer_money.png" alt=""></b>
+                    <a href="">价格公正，安心购买</a></li>
+                <li>
+                    <b><img src="images/footer_zhuanshi.png" alt=""></b>
+                    <a href="">品质保证，放心出行</a></li>
+                <li>
+                    <b><img src="images/footer_fuwu.png" alt=""></b>
+                    <a href="">产品丰富，一站式服务</a></li>
+                <li>
+                    <b><img src="images/footer_guwen.png" alt=""></b>
+                    <a href="">专业顾问，24小时客服</a></li>
+            </ul>
+            <div class="footer_banner">
+                <ul>
+                    <li>
+                        <div class="d">
+                            <b class="b"></b>
+                            <span>24小时服务热线</span>
+                            <span>4007-777-777</span>
+                        </div>
+                        <div class="d d2">
+                            <b class="b b2"></b>
+                            <span>意见反馈</span>
+                        </div>
+                    </li>
+                    <li>
+                        <ul>
+                            <li><a href=""><b>关于同城</b></a></li>
+                            <li><a href="">同城简介</a></li>
+                            <li><a href="">可信网站</a></li>
+                            <li><a href="">法律声明</a></li>
+                            <li><a href="">网站地图</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li><a href=""><b>加盟合作</b></a></li>
+                            <li><a href="">商务合作</a></li>
+                            <li><a href="">业务资质</a></li>
+                            <li><a href="">旅游保险</a></li>
+                            <li><a href="">网站联盟</a></li>
+                            <li><a href="">门票合作</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li><a href=""><b>联系我们</b></a></li>
+                            <li><a href="">投诉建议</a></li>
+                            <li><a href="">诚聘英才</a></li>
+                            <li><a href="">友情链接</a></li>
+                           <li><a href="">联系我们</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>同城旗下网站</h3>
+                        <ul>
+
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>同城旅游app</h3>
+                        <img src="images/ewm.png" alt="" width="95px">
+                        <span>手机预订更优惠</span>
+                    </li>
+                </ul>
+                <div class="footer_second">
+                    <div class="bquan">
+                        <p>Copyright © 2002-2017  版权所有 <a href="">同程网络科技股份有限公司</a></p>
+                        <p>苏ICP证B2-20100204 &nbsp;&nbsp;<a href=""> [乙测资字32005078]</a>&nbsp;&nbsp;<a href="">苏ICP备09033604号</a>&nbsp;&nbsp;旅行社业务许可证：L-JS-CJ00070</p>
+                        <p><a href="">旅游网站诚信建设承诺书</a>&nbsp;&nbsp;<a href="">旅游网站守法诚信责任状</a>&nbsp;&nbsp;<a href="">
+                            违规失信举报热线：4007-777-777转9
+                        </a></p>
+                    </div>
+                    <ul class="footer_ul">
+                        <li>
+                            <b></b>
+                            <a href="">首批商务部电商示范企业</a>
+                        </li>
+                        <li>
+                            <b></b>
+                            <a href="">2016中国旅游集团20强</a>
+                        </li>
+                        <li>
+                            <b></b>
+                            <a href="">同程旅游电子营业执照</a>
+                        </li>
+                        <li>
+                            <b></b>
+                            <a href="">AAA级信用企业</a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="titleTop">
+        <div class="top1">
+            <img src="images/titleTop.png" alt=""/>
+            <div class="topIpt">
+                <input type="text"/>
+                <button>搜&nbsp;&nbsp;索</button>
+            </div>
+        </div>
+    </div>
+
+
+    <ul class="lcgd">
+        <li class="active"><a href="#">1F</a><span>酒店</span></li>
+        <li><a href="#">2F</a><span>景点</span></li>
+        <li><a href="#">3F</a><span>周边</span></li>
+        <li><a href="#">4F</a><span>世界</span></li>
+    </ul>
+    <ul>
+        <li><a href="">顶部</a></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--6、引入 行为依赖 文件-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/unslider.min.js"></script>
+<!--7、引入测试的JS文件-->
+
+    <script src="js/index.js"></script>
+</body>
+</html>

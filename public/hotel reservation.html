@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>酒店预订</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hotel%20reservation.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+
+</head>
+
+<body>
+    <div id="header">
+
+    </div>
+    <div class="centent">
+        <div class="banner">
+            <ul class="ulList">
+                <li class="show"><img src="images/酒店/rBLkCVlV936AZF4hAAFEUiv-4Q4254.jpg" alt=""></li>
+                <li><img src="images/酒店/rBLkBllI7dWAAEjrAAIAAIPNoIE777.jpg" alt=""></li>
+                <li><img src="images/酒店/rBLkCFlKHcCADOSAAAIAANG2dsw680.jpg" alt=""></li>
+            </ul>
+            <div class="gnjdss">
+                <ul class="gnjdss_List">
+                    <li class="orange">国内酒店</li>
+                    <li>国际酒店</li>
+                    <li>港澳台酒店</li>
+                </ul>
+                <div class="ipt ipt1">
+                    <p class="p1">
+                    <lable class="bourn">目的地</lable>
+                    <input type="text" placeholder="目的地" class="bourn_ipt" value="北京">
+                    </p>
+                    <p class="p2">
+                    <lable class="check_in">入住</lable>
+                    <input type="datetime-local" class="check_in_ipt">
+
+                    <lable class="check_out">离店</lable>
+                    <input type="datetime-local" class="check_out_ipt">
+                    </p>
+                    <p class="p3">
+                    <lable class="antistop">关键词</lable>
+                    <input type="text" class="antistop_ipt" placeholder="请输入地标/商圈/景点">
+                    </p>
+                    <p class="p4">
+                    <button class="search1">搜索</button>
+                    <button class="Map_search">地图搜索</button>
+                    </p>
+                </div>
+                <div class="ipt ipt2 hide">
+                    <p class="p1">
+                        <lable class="bourn">目的地</lable>
+                        <input type="text" placeholder="目的地" class="bourn_ipt" value="曼谷">
+                    </p>
+                    <p class="p2">
+                        <lable class="check_in">入住</lable>
+                        <input type="datetime-local" class="check_in_ipt">
+
+                        <lable class="check_out">离店</lable>
+                        <input type="datetime-local" class="check_out_ipt">
+                    </p>
+                    <p class="p3">
+                        <lable class="antistop">关键词</lable>
+                        <input type="text" class="antistop_ipt" placeholder="请输入地标/商圈/景点">
+                    </p>
+                    <p class="p4">
+                        <button class="search1">搜索</button>
+                        <button class="Map_search">搜索</button>
+                    </p>
+                </div>
+                <div class="ipt ipt3 hide">
+                    <p class="p1">
+                        <lable class="bourn">目的地</lable>
+                        <input type="text" placeholder="目的地" class="bourn_ipt" value="香港">
+                    </p>
+                    <p class="p2">
+                        <lable class="check_in">入住</lable>
+                        <input type="datetime-local" class="check_in_ipt">
+
+                        <lable class="check_out">离店</lable>
+                        <input type="datetime-local" class="check_out_ipt">
+                    </p>
+                    <p class="p3">
+                        <lable class="antistop">关键词</lable>
+                        <input type="text" class="antistop_ipt" placeholder="请输入地标/商圈/景点">
+                    </p>
+                    <p class="p4">
+                        <button class="search1">搜索</button>
+                        <button class="Map_search">地图搜索</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="hot_hotel">
+            <div title="热门酒店" class="hotel_title">热门酒店</div>
+            <ul class="tab">
+                <li class="active">北京</li>
+                <li>上海</li>
+                <li>深圳</li>
+                <li>苏州</li>
+                <li>广州</li>
+                <li>杭州</li>
+                <li>成都</li>
+                <li>武汉</li>
+            </ul>
+            <div class="pub">
+                <ul>
+                    <li>
+                        <img src="images/酒店/bj1.jpg" alt="">
+                        <a href="#">
+                            <h1>北京万达索菲特大饭店</h1>
+                            <span>¥989起</span>
+                            <p>【国贸地区】建国路93号万达广场c座近Soho现代城</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/bj2.jpg" alt="">
+                        <a href="#">
+                            <h1>Zhotels智尚酒店(北京王府井中心店) </h1>
+                            <span>¥289起</span>
+                            <p>王府井大街柏树胡同32号近王府井天主教堂</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/bj3.jpg" alt="">
+                        <a href="#">
+                            <h1>北京饭店</h1>
+                            <span>¥850起</span>
+                            <p>东长安街33号近王府井大街</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/bj4.jpg" alt="">
+                        <a href="#">
+                            <h1>北京乾元酒店</h1>
+                            <span>¥819起</span>
+                            <p>东直门内大街19号近建设部综合勘察研究设计院</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/bj5.jpg" alt="">
+                        <a href="#">
+                            <h1>北京四季御园国际大酒店</h1>
+                            <span>¥358起</span>
+                            <p>北旱河路168号-3号近香山、植物园、颐和园</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/bj1.jpg" alt="">
+                        <a href="#">
+                            <h1>北京金坛乐宾楼</h1>
+                            <span>¥222起</span>
+                            <p>定慧桥北三军仪仗队南门西侧近定慧桥西北角</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="hide">
+                    <li>
+                        <img src="images/酒店/rBANDFjcgvaARHaSABAAAKR7miY639.jpg" alt="">
+                        <a href="#">
+                            <h1>北京万达索菲特大饭店</h1>
+                            <span>¥989起</span>
+                            <p>【国贸地区】建国路93号万达广场c座近Soho现代城</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/4tObg9.jpg" alt="">
+                        <a href="#">
+                            <h1>Zhotels智尚酒店(北京王府井中心店) </h1>
+                            <span>¥289起</span>
+                            <p>王府井大街柏树胡同32号近王府井天主教堂</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/sh4.jpg" alt="">
+                        <a href="#">
+                            <h1>北京饭店</h1>
+                            <span>¥850起</span>
+                            <p>东长安街33号近王府井大街</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/2y6xE7.jpg" alt="">
+                        <a href="#">
+                            <h1>北京乾元酒店</h1>
+                            <span>¥819起</span>
+                            <p>东直门内大街19号近建设部综合勘察研究设计院</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/sh2.jpg" alt="">
+                        <a href="#">
+                            <h1>北京四季御园国际大酒店</h1>
+                            <span>¥358起</span>
+                            <p>北旱河路168号-3号近香山、植物园、颐和园</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/YeeScp.jpg" alt="">
+                        <a href="#">
+                            <h1>北京金坛乐宾楼</h1>
+                            <span>¥222起</span>
+                            <p>定慧桥北三军仪仗队南门西侧近定慧桥西北角</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="hide">
+                    <li>
+                        <img src="images/酒店/bj1.jpg" alt="">
+                        <a href="#">
+                            <h1>北京万达索菲特大饭店</h1>
+                            <span>¥989起</span>
+                            <p>【国贸地区】建国路93号万达广场c座近Soho现代城</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/bj2.jpg" alt="">
+                        <a href="#">
+                            <h1>Zhotels智尚酒店(北京王府井中心店) </h1>
+                            <span>¥289起</span>
+                            <p>王府井大街柏树胡同32号近王府井天主教堂</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/bj3.jpg" alt="">
+                        <a href="#">
+                            <h1>北京饭店</h1>
+                            <span>¥850起</span>
+                            <p>东长安街33号近王府井大街</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/bj4.jpg" alt="">
+                        <a href="#">
+                            <h1>北京乾元酒店</h1>
+                            <span>¥819起</span>
+                            <p>东直门内大街19号近建设部综合勘察研究设计院</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/bj5.jpg" alt="">
+                        <a href="#">
+                            <h1>北京四季御园国际大酒店</h1>
+                            <span>¥358起</span>
+                            <p>北旱河路168号-3号近香山、植物园、颐和园</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/bj1.jpg" alt="">
+                        <a href="#">
+                            <h1>北京金坛乐宾楼</h1>
+                            <span>¥222起</span>
+                            <p>定慧桥北三军仪仗队南门西侧近定慧桥西北角</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="hide">
+                    <li>
+                        <img src="images/酒店/rBANDFjcgvaARHaSABAAAKR7miY639.jpg" alt="">
+                        <a href="#">
+                            <h1>北京万达索菲特大饭店</h1>
+                            <span>¥989起</span>
+                            <p>【国贸地区】建国路93号万达广场c座近Soho现代城</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/4tObg9.jpg" alt="">
+                        <a href="#">
+                            <h1>Zhotels智尚酒店(北京王府井中心店) </h1>
+                            <span>¥289起</span>
+                            <p>王府井大街柏树胡同32号近王府井天主教堂</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/sh4.jpg" alt="">
+                        <a href="#">
+                            <h1>北京饭店</h1>
+                            <span>¥850起</span>
+                            <p>东长安街33号近王府井大街</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/2y6xE7.jpg" alt="">
+                        <a href="#">
+                            <h1>北京乾元酒店</h1>
+                            <span>¥819起</span>
+                            <p>东直门内大街19号近建设部综合勘察研究设计院</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/sh2.jpg" alt="">
+                        <a href="#">
+                            <h1>北京四季御园国际大酒店</h1>
+                            <span>¥358起</span>
+                            <p>北旱河路168号-3号近香山、植物园、颐和园</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/酒店/YeeScp.jpg" alt="">
+                        <a href="#">
+                            <h1>北京金坛乐宾楼</h1>
+                            <span>¥222起</span>
+                            <p>定慧桥北三军仪仗队南门西侧近定慧桥西北角</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class=" Holiday">
+            <div class="djzt">度假主题</div>
+            <div class="nav">
+                <ul>
+                    <li>
+                       <i></i>
+                        <span>浪在海边</span>
+                    </li>
+                    <li>
+                        <i></i>
+                        <span>吃货福地</span>
+                    </li>
+                    <li>
+                        <i></i>
+                        <span>江南小镇</span>
+                    </li>
+                    <li>
+                        <i></i>
+                        <span>民族风情</span>
+                    </li>
+                    <li>
+                        <i></i>
+                        <span>登山探险</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="Holiday_pic">
+                <div class="leftintro">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+
+    </div>
+</body>
+<script>
+    $("#header").load("header.html");
+    $("#footer").load("footer.html");
+</script>
+<script src="js/hotel.js"></script>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册同城旅游</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        /*body{*/
+            /*position: relative;*/
+        /*}*/
+        #veo{
+            float: left;
+            width:100%;
+        }
+        #header{
+            width:100%;
+            height: 95px;
+            /*background-color: yellow;*/
+            /*overflow: hidden;*/
+            display: table;
+            position: absolute;
+        }
+        #header .header_div{
+            width: 1190px;
+            height: 85px;
+            margin:0 auto;
+            margin-top: 10px;
+            /*background: aqua;*/
+            padding-bottom: 10px;
+            border-bottom:2px solid red;
+        }
+        #header .header_div img{
+            float: left;
+        }
+        #header .header_div h2{
+            float: left;
+            margin:45px 0 0 10px;
+            color: #fff;
+
+        }
+        .model{
+            position: absolute;
+            width: 800px;
+            height: 550px;
+            background:rgba(255,255,255,0.5);
+            top:50%;
+            left:50%;
+            margin-top:-225px;
+            margin-left:-400px;
+            border-radius: 20px;
+        }
+        .model ul{
+            list-style: none;
+            margin-left: 50px;
+            margin-top: 20px;
+            position: relative;
+        }
+        .model ul li{
+            width: 410px;
+            height: 80px;
+            line-height: 80px;
+            margin-left: 20px;
+            margin:0 auto;
+        }
+        .model ul li span{
+            font-size: 14px;
+
+        }
+        .model ul li input{
+            width: 300px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 5px;
+            border:none;
+            outline: none;
+            margin-left: 10px;
+            padding-left: 5px;
+        }
+        .model ul b{
+            color: #ca73ff;
+            margin-right: 10px;
+        }
+        .model ul .li1{
+            height: 33px;
+            line-height: 33px;
+            text-align: center;
+        }
+        #check{
+            position: absolute;
+            z-index: 100;
+            left:0;
+            width: 14px;
+            height: 15px;
+            margin:0;
+            padding:0;
+            background: none;
+            border:none;
+            opacity: 0;
+        }
+        .model ul .li1>.inpt{
+            text-align: center;
+            width: 13px;
+            height: 13px;
+            line-height: 13px;
+            display: inline-block;
+            border: 1px solid #ddd;
+            vertical-align:middle;
+            position: relative;
+        }
+        .gou{
+            width: 10px;
+            height: 13px;
+            /*background: #000;*/
+            position: absolute;
+            top:10%;
+            left: 10%;
+            background: url("images/reg.png") no-repeat 0 -530px;
+
+        }
+        .model ul .li1>span{
+
+            font-size: 13px;
+
+        }
+        .reg_add{
+            width: 240px;
+            height:30px;
+            line-height: 30px;
+            /*background-color: yellow;*/
+            position: absolute;
+            margin-top: -13px;
+            margin-left: 277px;
+            font-size: 13px;
+        }
+        .reg_add_zq{
+            width: 240px;
+            height:30px;
+            line-height: 30px;
+            /*background-color: yellow;*/
+            position: absolute;
+            margin-top: -13px;
+            margin-left: 277px;
+            font-size: 13px;
+            color: green;
+        }
+        .reg_add_cw{
+            width: 240px;
+            height:30px;
+            line-height: 30px;
+            /*background-color: yellow;*/
+            position: absolute;
+            margin-top: -13px;
+            margin-left: 277px;
+            font-size: 13px;
+            color: red;
+        }
+        button.btn{
+            width: 300px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border:none;
+            box-shadow:rgba(0,255,255,0.8)0px 0px 8px;
+            border-radius: 10px;
+            border:1px solid aqua;
+            background-color: #fff;
+            font-size: 20px;
+            margin-left: 290px;
+            margin-top: 10px;
+        }
+        input:focus{
+            box-shadow:rgba(0,255,255,0.8)0px 0px 8px;
+
+        }
+    </style>
+</head>
+<body>
+<div id="veo" style="width: 100%">
+        <video src="res/snow.mp4" autoplay loop style="height: 796px; width: 100%;float: left;"></video>
+</div>
+    <div id="header">
+        <div class="header_div">
+            <img src="images/logo.png" alt="" style="height: 85px;">
+            <h2>欢迎注册</h2>
+        </div>
+    </div>
+    <div class="model">
+        <ul>
+            <li>
+                <span>
+                    <b>*</b>手机号码
+                </span>
+                <input type="text" placeholder="请输入手机号码" id="phone">
+            </li>
+            <div class="reg_add"></div>
+            <li>
+                <span><b>*</b>登录密码</span>
+                <input type="password"placeholder="请输入密码" id="pwd">
+            </li>
+            <div class="reg_add"></div>
+            <li><span><b>*</b>确认密码</span><input type="password"placeholder="请确认密码" id="pwd2"></li>
+            <div class="reg_add"></div>
+            <li><span><b>*</b>图形验证码</span><input type="text" placeholder="请输入图形验证码"></li>
+            <div></div>
+            <li class="li1">
+                <div class="inpt">
+                    <input type="checkbox" id="check" >
+                    <div class="gou"></div>
+                </div>
+                <span>我已阅读并同意 <a href="">《同城旅游服务条款》</a> </span>
+            </li>
+        </ul>
+        <button type="button" class="btn">提交</button>
+    </div>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/zc.js"></script>
+</body>
+</html>
